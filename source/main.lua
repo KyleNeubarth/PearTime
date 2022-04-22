@@ -3,8 +3,6 @@ import "Corelibs/graphics"
 import "Corelibs/sprites"
 import "Corelibs/timer"
 
---this is a test comment! Plz push and then delete
-
 local gfx<const> = playdate.graphics
 
 local playerSprite = nil    
