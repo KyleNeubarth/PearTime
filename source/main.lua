@@ -7,7 +7,7 @@ local gfx<const> = playdate.graphics
 
 local playerSprite = nil
 local coinSprite = nil
-local playerSpeed = 2
+local playerSpeed = 4
 
 local playTimer = nil
 local playTime = 30*1000
@@ -24,7 +24,7 @@ end
 
 local function init()
     math.randomseed(playdate.getSecondsSinceEpoch())
-    local playerImage = gfx.image.new("images/player")
+    local playerImage = gfx.image.new("images/gnombino")
     playerSprite = gfx.sprite.new(playerImage)
     playerSprite:moveTo(200,120)
     playerSprite:setCollideRect(0,0,playerSprite:getSize())
